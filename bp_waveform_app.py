@@ -10,8 +10,8 @@ st.title("🩺 Arterial Blood Pressure Waveform Simulator")
 
 # Sidebar inputs
 st.sidebar.header("Input Blood Pressure")
-systolic = st.sidebar.slider("Systolic Pressure (mmHg)", min_value=80, max_value=200, value=120)
-diastolic = st.sidebar.slider("Diastolic Pressure (mmHg)", min_value=40, max_value=120, value=80)
+systolic = st.sidebar.slider("Systolic Pressure (mmHg)", min_value=20, max_value=280, value=120)
+diastolic = st.sidebar.slider("Diastolic Pressure (mmHg)", min_value=10, max_value=160, value=80)
 heart_rate = st.sidebar.slider("Heart Rate (bpm)", min_value=40, max_value=180, value=75)
 
 # Derived values
